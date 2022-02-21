@@ -9,9 +9,9 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap">
     <!-- Styles -->
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="css/app.css">
     <!-- Scripts -->
-    <script src="/js/app.js" defer=""></script>
+    <script src="js/app.js" defer=""></script>
     <script>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       // Credit: https://flowbite.com/docs/customize/dark-mode/
@@ -31,7 +31,7 @@
             <div class="flex">
               <!-- Logo -->
               <div class="shrink-0 flex items-center">
-                <a href="/">
+                <a href="">
                   <svg viewBox="0 0 316 316" xmlns="http://www.w3.org/2000/svg"
                     class="block h-10 w-auto fill-current text-gray-600 dark:text-gray-300">
                     <path
@@ -52,15 +52,15 @@
               Home
               </a>
               <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 dark:text-gray-300 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out ml-auto"
-                href="/login.html">
+                href="login.html">
               Log in
               </a>
               <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 dark:text-gray-300 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out ml-auto"
-                href="/register.html">
+                href="register.html">
               Register
               </a>
               <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 dark:text-gray-300 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out ml-auto"
-                href="/dashboard.html">
+                href="dashboard.html">
               Dashboard
               </a>
               <!-- Settings Dropdown -->
@@ -96,15 +96,15 @@
         <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
           <div class="pt-2 pb-3 space-y-1">
             <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 dark:text-gray-100 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-              href="/login.html">
+              href="login.html">
             Log in
             </a>
             <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 dark:text-gray-100 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-              href="/register.html">
+              href="register.html">
             Register
             </a>
             <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 dark:text-gray-100 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300 transition duration-150 ease-in-out"
-              href="/dashboard.html">
+              href="dashboard.html">
             Dashboard
             </a>
           </div>
@@ -127,14 +127,14 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/16/960/640');"
                       alt="Featured Image"></span>
                     </a>
                   </header>
                   <div class="p-5 h-full flex flex-col">
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Cupiditate repudiandae voluptas vel eligendi voluptatibus.
                       </h3>
@@ -147,11 +147,11 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 3 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post
                         comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none"
+                        <a href="posts/demo-post.html#comments" role="none"
                           aria-hidden="true" title="3 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -168,7 +168,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Quibusdam aut corrupti non quae sed dignissimos.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -183,14 +183,14 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/3/960/640');"
                       alt="Featured Image"></span>
                     </a>
                   </header>
                   <div class="p-5 h-full flex flex-col">
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Veniam alias ratione et dolor dolorem labore excepturi.
                       </h3>
@@ -202,11 +202,11 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 1 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post
                         comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none"
+                        <a href="posts/demo-post.html#comments" role="none"
                           aria-hidden="true" title="1 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -223,7 +223,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Excepturi dolores voluptatem rerum laudantium incidunt ut.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -238,14 +238,14 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/68/960/640');"
                       alt="Featured Image"></span>
                     </a>
                   </header>
                   <div class="p-5 h-full flex flex-col">
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Illum est assumenda dolorem soluta consectetur fugiat dolor.
                       </h3>
@@ -257,11 +257,11 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 2 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post
                         comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none"
+                        <a href="posts/demo-post.html#comments" role="none"
                           aria-hidden="true" title="2 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -278,7 +278,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Eligendi illo earum atque et ex sint.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -293,7 +293,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/74/960/640');"
                       alt="Featured Image"></span>
@@ -306,7 +306,7 @@
                           title="See all posts tagged with eveniet" href="#">eveniet</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Numquam voluptas animi neque doloribus distinctio perferendis.
                       </h3>
@@ -319,10 +319,10 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 2 comments.
-                        <a href="/posts/demo-post.html#comments">Go to
+                        <a href="posts/demo-post.html#comments">Go to
                         post comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments"
+                        <a href="posts/demo-post.html#comments"
                           role="none" aria-hidden="true" title="2 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -339,7 +339,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Nulla beatae in ut maiores dicta voluptatem.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -354,7 +354,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/8/960/640');"
                       alt="Featured Image"></span>
@@ -367,7 +367,7 @@
                           title="See all posts tagged with inventore" href="#">inventore</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Qui totam deleniti magni aspernatur dolorem labore excepturi.
                       </h3>
@@ -379,10 +379,10 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 0 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none" aria-hidden="true"
+                        <a href="posts/demo-post.html#comments" role="none" aria-hidden="true"
                           title="0 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -399,7 +399,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Et quis molestiae molestiae est.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -414,7 +414,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/20/960/640');"
                       alt="Featured Image"></span>
@@ -428,7 +428,7 @@
                           href="#%20veniam%20consequuntur">laboriosam veniam consequuntur</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Dolores quia in qui doloremque earum atque et ex sint.
                       </h3>
@@ -441,10 +441,10 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 1 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none" aria-hidden="true"
+                        <a href="posts/demo-post.html#comments" role="none" aria-hidden="true"
                           title="1 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -461,7 +461,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Molestias et ut cum qui.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -476,7 +476,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/57/960/640');"
                       alt="Featured Image"></span>
@@ -489,7 +489,7 @@
                           title="See all posts tagged with illum" href="#">illum</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Quis vitae earum maxime pariatur tenetur sit.
                       </h3>
@@ -501,11 +501,11 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 0 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post comment
                         section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none"
+                        <a href="posts/demo-post.html#comments" role="none"
                           aria-hidden="true" title="0 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -522,7 +522,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Voluptates ea sapiente voluptatibus eum.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -537,7 +537,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/59/960/640');"
                       alt="Featured Image"></span>
@@ -550,7 +550,7 @@
                           title="See all posts tagged with quisquam" href="#">quisquam</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Veniam aliquam hic alias.
                       </h3>
@@ -562,10 +562,10 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 2 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none" aria-hidden="true"
+                        <a href="posts/demo-post.html#comments" role="none" aria-hidden="true"
                           title="2 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -582,7 +582,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Quidem et voluptas omnis est.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -597,14 +597,14 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/6/960/640');"
                       alt="Featured Image"></span>
                     </a>
                   </header>
                   <div class="p-5 h-full flex flex-col">
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Mollitia id corporis neque sunt.
                       </h3>
@@ -617,10 +617,10 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 1 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none" aria-hidden="true"
+                        <a href="posts/demo-post.html#comments" role="none" aria-hidden="true"
                           title="1 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -637,7 +637,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Optio labore repellat provident facilis quo.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -652,7 +652,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/51/960/640');"
                       alt="Featured Image"></span>
@@ -671,7 +671,7 @@
                         facilis</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Sint exercitationem eligendi explicabo nemo ad aperiam.
                       </h3>
@@ -684,11 +684,11 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 0 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post
                         comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none"
+                        <a href="posts/demo-post.html#comments" role="none"
                           aria-hidden="true" title="0 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -705,7 +705,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Ex atque possimus repellat quos ut explicabo aperiam quo.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -720,14 +720,14 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/88/960/640');"
                       alt="Featured Image"></span>
                     </a>
                   </header>
                   <div class="p-5 h-full flex flex-col">
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Enim aut voluptatem a accusantium at.
                       </h3>
@@ -739,10 +739,10 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 1 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none" aria-hidden="true"
+                        <a href="posts/demo-post.html#comments" role="none" aria-hidden="true"
                           title="1 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -759,7 +759,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Ab non quia laudantium.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -774,7 +774,7 @@
                 <article
                   class="w-full sm:w-80 bg-white rounded-lg shadow-md dark:bg-gray-800 m-4 my-5 flex flex-col flex-grow">
                   <header>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                     <span class="rounded-t-lg featured-post-image" role="img"
                       style="background-image: url('https://picsum.photos/seed/74/960/640');"
                       alt="Featured Image"></span>
@@ -797,7 +797,7 @@
                           title="See all posts tagged with cumque" href="#">cumque</a>
                       </li>
                     </ul>
-                    <a href="/posts/demo-post.html">
+                    <a href="posts/demo-post.html">
                       <h3 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white break-words">
                         Suscipit illo quis et sit dolorum quo autem praesentium.
                       </h3>
@@ -810,11 +810,11 @@
                       <span class="inline float-right">
                         <span class="sr-only">
                         The post has 1 comments.
-                        <a href="/posts/demo-post.html#comments">
+                        <a href="posts/demo-post.html#comments">
                         Go to post
                         comment section</a>
                         </span>
-                        <a href="/posts/demo-post.html#comments" role="none"
+                        <a href="posts/demo-post.html#comments" role="none"
                           aria-hidden="true" title="1 comments">
                           <svg class="inline fill-gray-500 dark:text-gray-300" role="presentation"
                             xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px"
@@ -831,7 +831,7 @@
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden text-ellipsis">
                       Dolor optio temporibus distinctio ipsum a omnis iste.
                     </p>
-                    <a href="/posts/demo-post.html"
+                    <a href="posts/demo-post.html"
                       class="mt-auto w-fit inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                       Read more
                       <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
